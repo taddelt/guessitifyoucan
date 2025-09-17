@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "guessitifyoucan",
+    "slug": "guessitifyoucan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/new-app-icon.png",
+    "scheme": "guessitifyoucan",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-font"
+    ],
+    "assetBundlePatterns": ["**/*"]
+  }
+}
